@@ -10,7 +10,7 @@ sys.path.append(lib_path)
 
 from terrautils.formats import create_geotiff
 from terrautils.spatial import geojson_to_tuples
-from flir2tif import Get_FLIR
+from flir2geotiff import Get_FLIR
 
 test_id = 'c3c21db1-deb5-481a-8180-ad447f356a95'
 path = os.path.join(os.path.dirname(__file__), 'test_flir2tif_doc', test_id)
