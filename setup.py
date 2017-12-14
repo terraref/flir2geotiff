@@ -1,13 +1,13 @@
 from setuptools import setup
 
-setup(name='flir2geotiff',
+setup(name='flir_ir',
       version='1.0.0',
-      packages=['flir2geotiff'],
+      packages=['flir_ir'],
       include_package_data=True,
       install_requires=[
           'utm', 
           'python-dateutil',
           'influxdb',
       ],
-      url='https://github.com/terraref/flir2geotiff',
+      url='https://github.com/terraref/flir_ir',
       )
